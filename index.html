@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IterGo - Vaš ultimativni putni saputnik</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <h1>IterGo</h1>
+          <ul>
+            <li><a href="#features">Funkcionalnosti</a></li>
+            <li><a href="#screenshots">Izgled</a></li>
+            <li><a href="#download">Preuzmi</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="overlay"></div>
+
+      <div class="container">
+        <h2>Dobrodošli u IterGo</h2>
+        <p>Vaš ultimativni putni saputnik</p>
+        <a href="#download" class="btn">Preuzmi sada</a>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <div class="container">
+        <h2>Funkcionalnosti</h2>
+        <div class="feature-list">
+          <div class="feature">
+            <h3>Navigacija</h3>
+            <p>Nalazi najbolje rute za najkraće vreme</p>
+          </div>
+          <div class="feature">
+            <h3>Statistika</h3>
+            <p>Dobijte statistiku o vašim troškovima</p>
+          </div>
+          <div class="feature">
+            <h3>Društveno deljenje</h3>
+            <p>Podelite svoje putovanje sa prijateljima i porodicom</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="screenshots" class="screenshots">
+      <div class="container">
+        <h2>Izgled aplikacije</h2>
+        <div class="screenshot-list">
+          <img src="screenshot1.png" alt="Screenshot 1" />
+          <img src="screenshot2.png" alt="Screenshot 2" />
+          <img src="screenshot3.png" alt="Screenshot 3" />
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="download">
+      <div class="container">
+        <h2>Preuzmi IterGo</h2>
+        <p>Dostupno na iOS i Android platformama</p>
+        <div class="download-links">
+          <img
+            src="assets/google-play-badge.png"
+            alt="Google Play"
+            class="image"
+          />
+          <img src="assets/images.png" alt="App Store" class="image" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Kontaktirajte nas</h2>
+        <form id="contact-form">
+          <input type="text" placeholder="Vaše ime" required id="name" />
+          <input
+            type="email"
+            placeholder="Vaša email adresa"
+            required
+            id="email"
+          />
+          <textarea placeholder="Vaša poruka" required id="text"></textarea>
+          <button type="submit" class="btn">Pošalji poruku</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 IterGo. Sva prava zadržana.</p>
+      </div>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
