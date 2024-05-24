@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
   const sections = document.querySelectorAll(
-    '.features, .screenshots, .download, .contact'
+    '.features, .screenshots, .download, .contact, .how-to-drive'
   );
 
   const observer = new IntersectionObserver(
