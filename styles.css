@@ -1,7 +1,5 @@
-/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
 
-/* Reset some default styles */
 body,
 h1,
 h2,
@@ -87,7 +85,7 @@ nav ul li a {
 
 .hero {
   position: relative;
-  background: url('/assets/background.png') no-repeat center center/cover;
+  background: url('assets/background.png') no-repeat center center/cover;
   text-align: center;
   padding: 100px 0;
   color: #fff;
@@ -191,7 +189,7 @@ nav ul li a {
 .screenshot-list img {
   max-width: 30%;
   margin: 10px;
-  border-radius: 5px;
+  border-radius: 20px;
   border: 2px solid #d6d6d650;
 }
 
@@ -249,6 +247,14 @@ nav ul li a {
   padding: 20px;
   background: #f4f4f4;
   border-radius: 5px;
+  text-align: center;
+}
+
+.step img {
+  max-width: 200px;
+  margin-bottom: 10px;
+  border: 2px solid #d6d6d650;
+  border-radius: 20px;
 }
 
 .step h3 {
